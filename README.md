@@ -11,7 +11,6 @@
 ◘ Chef have to allow the customer to browse the upcoming menu options along with current day menu.
 
 ![Screenshot_2020-05-17-19-39-57-42_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87062890-41b53b80-c22b-11ea-9024-c9695e2df4cc.jpg)
-![Screenshot_2020-05-17-19-43-51-94_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87062895-437eff00-c22b-11ea-95ca-1c009a502f62.jpg)
 ![Screenshot_2020-05-17-23-04-58-77_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87062897-44b02c00-c22b-11ea-8f59-1903dd92c6d2.jpg)
 ![WhatsApp Image 2020-07-09 at 9 19 33 PM](https://user-images.githubusercontent.com/67330154/87062901-45e15900-c22b-11ea-880b-139b846e16ab.jpeg)
 ![Screenshot_2020-05-17-15-23-39-95_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87062907-4679ef80-c22b-11ea-8f92-5a1e7f817c48.jpg)
@@ -35,7 +34,6 @@
 ◘ Customer can rate the foods after trying it.
 
 ![Screenshot_2020-05-18-20-16-49-73_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87063517-1b43d000-c22c-11ea-9067-ef1e20c86e0f.jpg)
-![Screenshot_2020-05-18-20-22-21-57_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87063521-1d0d9380-c22c-11ea-81f2-714da39734
 ![Screenshot_2020-05-18-20-16-21-85_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87063556-2696fb80-c22c-11ea-9eaa-b96b157f3c7e.jpg)
 f7.jpg)
 ![Screenshot_2020-05-18-20-12-28-95](https://user-images.githubusercontent.com/67330154/87063523-1da62a00-c22c-11ea-9269-7c1cc2cab598.jpg)
@@ -45,3 +43,5 @@ f7.jpg)
 ![Screenshot_2020-05-18-20-14-07-91_082ead38d4c01836a0523eff2836c7f2](https://user-images.githubusercontent.com/67330154/87063548-24cd3800-c22c-11ea-9923-4527a1da9af5.jpg)
 
 # Delivery Login:
+
+Delivery person get notify to Deliver Order and accordingly,it is delivered to Customer's doorstep.
