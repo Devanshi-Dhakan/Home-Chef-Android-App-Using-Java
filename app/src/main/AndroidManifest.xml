@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.homechef">
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@mipmap/homechef"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/homechef_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".DeliveryFoodPanel.Delivery_ShippingOrder"
+            android:label="Ship Orders"></activity>
+        <activity
+            android:name=".DeliveryFoodPanel.DeliveryShipOrderView"
+            android:label="Ship Orders" />
+        <activity
+            android:name=".DeliveryFoodPanel.DeliveryPendingOrderView"
+            android:label="Pending Orders" />
+        <activity android:name=".Delivery_FoodPanelBottomNavigation" />
+        <activity
+            android:name=".Delivery_SendOtp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Delivery_ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Delivery_Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Delivery_LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Delivery_VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Delivery_registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefFoodPanel.ChefPreparedOrderView"
+            android:label="Prepared Orders" />
+        <activity
+            android:name=".ChefFoodPanel.ChefPreparedOrder"
+            android:label="Prepared Orders" />
+        <activity
+            android:name=".ChefFoodPanel.ChefOrdertobePrepareView"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name=".ChefFoodPanel.ChefOrderTobePrepared"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerPaymentOTP"
+            android:label="Online Payment" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerOnlinePayment"
+            android:label="Online Payment" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerPayment"
+            android:label="Payable Orders" />
+        <activity
+            android:name=".CustomerFoodPanel.PayableOrders"
+            android:label="Payable Orders" />
+        <activity
+            android:name=".CustomerFoodPanel.PendingOrders"
+            android:label="Pending Orders" />
+        <activity
+            android:name=".ChefFoodPanel.Chef_order_dishes"
+            android:label="Orders" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerPhoneSendOTP"
+            android:label="Mobile Number" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerPhonenumber"
+            android:label="Mobile Number" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerForgotpassword"
+            android:label="Password" />
+        <activity
+            android:name=".CustomerFoodPanel.CustomerPassword"
+            android:label="Password" />
+        <activity android:name=".CustomerFoodPanel.OrderDish" />
+        <activity
+            android:name=".ChefFoodPanel.Update_Delete_Dish"
+            android:label="Home" />
+        <activity
+            android:name=".ChefFoodPanel.Chef_PostDish"
+            android:label="Post Dish" />
+        <activity
+            android:name=".ChefFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity
+            android:name=".MainMenu"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Chefsendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Chefloginphone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".sendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefLogin"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChooseOne"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SendNotification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
